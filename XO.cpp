@@ -76,7 +76,7 @@ int main()
 			break;
 	}
 	PrintField(&game);
-	//Winner Message (тренарый опертор в тренарном операторе)
+	//Winner Message
 	IsTie(&game) ? printf("Tie!\n") : IsWin(&game, playerOne) ? printf("Player One Win!!!\n") : 
 																printf("Player Two Win!!!\n");
 	//Delete savegame
