@@ -1,7 +1,6 @@
-#include "stdafx.h"
 #include "Defines.h"
 #include "FrontEnd.h"
-#include <ctype.h>		// Для функции toupper()
+#include <ctype.h>		// Г„Г«Гї ГґГіГ­ГЄГ¶ГЁГЁ toupper()
 
 void PrintField(const Game const * game)
 {
