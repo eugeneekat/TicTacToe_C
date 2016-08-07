@@ -1,9 +1,8 @@
-#include "stdafx.h"
 #include "Defines.h"
 #include "BackEnd.h"
-#include <stdlib.h>		//для srand()
-#include <time.h>		//для time()
-#include <io.h>			//для _finddata_t
+#include <stdlib.h>		//Г¤Г«Гї srand()
+#include <time.h>		//Г¤Г«Гї time()
+#include <io.h>			//Г¤Г«Гї _finddata_t
 
 bool IsWin(const Game const * game, const char player)
 {
