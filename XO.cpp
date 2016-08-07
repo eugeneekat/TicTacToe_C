@@ -77,8 +77,7 @@ int main()
 	}
 	PrintField(&game);
 	//Winner Message
-	IsTie(&game) ? printf("Tie!\n") : IsWin(&game, playerOne) ? printf("Player One Win!!!\n") : 
-																printf("Player Two Win!!!\n");
+	IsTie(&game) ? printf("Tie!\n") : IsWin(&game, playerOne) ? printf("Player One Win!!!\n") : printf("Player Two Win!!!\n");
 	//Delete savegame
 	remove("SaveGame.sav");
     return 0;
